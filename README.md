@@ -1,6 +1,15 @@
 # Visualization-of-impact-of-initialization-of-MELODIC-estimation
+------------------------------------------------------------------------------------------------------------------------------
 Purpose: 
 Visualization for the impact of multiple initializations in optimization of independent components in fMRI when using MELODIC software
+
+Author: 
+Zixi Yang
+
+Thanks to:
+Benjamin B. Risk
+
+------------------------------------------------------------------------------------------------------------------------------
 
 1. Used bash script to obtain estimations from MELODIC software
 Bash script:
