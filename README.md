@@ -38,3 +38,4 @@ Here, we used ABIDE sub29298 data as an example
 
   - 7. Vislualized Time courses and Spectral density for choosed components to compare any differences of a component with various initial values as a complement in 6_ABIDE_time_courses.R
 
+### Thank you!
