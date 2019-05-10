@@ -13,13 +13,13 @@ Benjamin B. Risk
 
 ### Data Sources: 
 
-ABIDE dataset:
+  - ABIDE dataset:
 
-http://fcon_1000.projects.nitrc.org/indi/abide/databases.html
+    http://fcon_1000.projects.nitrc.org/indi/abide/databases.html
 
-MB6 tutorial dataset:
+  - MB6 tutorial dataset:
 
-https://www.fmrib.ox.ac.uk/primers/rest_primer/3.1_ICA_single_subject/index.html
+    https://www.fmrib.ox.ac.uk/primers/rest_primer/3.1_ICA_single_subject/index.html
 
 
 ### Installation:
