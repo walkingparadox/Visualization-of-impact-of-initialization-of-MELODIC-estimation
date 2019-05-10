@@ -41,13 +41,14 @@ Benjamin B. Risk
 
   - 1. Used bash script to obtain estimations from MELODIC software
 
-Bash script:
+    Bash script:
 ```sh
 $ for i in {1..100}; do melodic -i filtered_func_data.nii.gz -o no_smooth_result_seed${i}.ica --tr=0.72 --seed=${i} --nobet --report --Oall -d 80 & done
 ```
-Notation：
-filtered_func_data.nii.gz is the original nifti data, 80 is the number of components, 100 is the number of initializations (seeds)
-Here, we used ABIDE sub29298 data as an example 
+
+   Notation：
+   filtered_func_data.nii.gz is the original nifti data, 80 is the number of components, 100 is the number of initializations    (seeds)
+   Here, we used ABIDE sub29298 data as an example 
 
   - 2. Calculated argmax initilization values in 1_ABIDE_argmax.R script
 
