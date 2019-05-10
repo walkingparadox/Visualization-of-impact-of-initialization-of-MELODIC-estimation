@@ -26,8 +26,10 @@ Benjamin B. Risk
 
   - R packages:
 
+```r
     > lapply(c("steadyICA","oro.nifti","neuRosim","JADE","parallel","AnalyzeFMRI","multitaper","snow","moments","corrplot")
        , install.packages)
+```
 
   - FSL:
   
@@ -42,6 +44,7 @@ Benjamin B. Risk
   - 1. Used bash script to obtain estimations from MELODIC software
 
     Bash script:
+
 ```sh
 $ for i in {1..100}; do melodic -i filtered_func_data.nii.gz -o no_smooth_result_seed${i}.ica --tr=0.72 --seed=${i} --nobet --report --Oall -d 80 & done
 ```
