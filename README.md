@@ -11,6 +11,32 @@ Benjamin B. Risk
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+### Data Sources: 
+
+ABIDE dataset:
+
+http://fcon_1000.projects.nitrc.org/indi/abide/databases.html
+
+MB6 tutorial dataset:
+
+https://www.fmrib.ox.ac.uk/primers/rest_primer/3.1_ICA_single_subject/index.html
+
+
+### Installation:
+
+  - R packages:
+
+    > lapply(c("steadyICA","oro.nifti","neuRosim","JADE","parallel","AnalyzeFMRI","multitaper","snow","moments","corrplot")
+       , install.packages)
+
+  - FSL:
+  
+    https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
+
+  - wb_view:
+
+    https://www.humanconnectome.org/software/get-connectome-workbench
+
 ### Steps:
 
   - 1. Used bash script to obtain estimations from MELODIC software
