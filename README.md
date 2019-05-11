@@ -67,5 +67,8 @@ $ for i in {1..100}; do melodic -i filtered_func_data.nii.gz -o no_smooth_result
   - 6. Created mathced components with original data dimension for better view in wb_view software for choosed components to compare any differences of a component with various initial values in 5_ABIDE_matchic_Rdata.R
 
   - 7. Vislualized Time courses and Spectral density for choosed components to compare any differences of a component with various initial values as a complement in 6_ABIDE_time_courses.R
+  
+  - 8. Notation:
+  For MB6 data, repeat all the seven steps previously, and the corresponding R scripts are 1_MB6_argmax.R, 2_MB6_cmd_plot.R, 3_MB6_corr_matrix.R, 4_MB6_corr_ic20.R, 5_MB6_matchic_Rdata.R, 6_MB6_time_courses.R.  
 
 ### Thank you!
